@@ -8,6 +8,7 @@ import ResultadosEstudioView from '@/components/resultadosEstudio.vue'
 import EstudioView from '@/components/estudio.vue'
 import TablaResutadoEstudioView from '@/components/tablaResultadoEstudio.vue'
 import TablaEstudiosView from '@/components/tablaEstudios.vue'
+import piepaginaView from '@/components/pie_pagina.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -55,7 +56,12 @@ const router = createRouter({
       path: '/tablaEstudios',
       name: 'tablaEstudios',
       component: TablaEstudiosView
-    }]
+    },
+    {
+     path: '/pie_pagina',
+     name: 'pie_pagina',
+     component: piepaginaView
+   }]
     }
   
    
