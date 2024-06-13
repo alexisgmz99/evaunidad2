@@ -4,7 +4,7 @@
 		<div class="flex bg-white rounded-lg shadow-lg overflow-hidden mx-auto max-w-sm lg:max-w-4xl">
 					<!-- Col -->
 					<div class="w-full h-auto bg-gray-400 dark:bg-gray-800 hidden lg:block lg:w-5/12 bg-cover rounded-l-lg"
-						style="background-image: url('https://5061633.fs1.hubspotusercontent-na1.net/hubfs/5061633/check-up-medico-hubspot.jpg')"></div>
+						style="background-image: url('https://img.freepik.com/foto-gratis/hermosa-joven-doctora-mirando-camara-oficina_1301-7807.jpg')"></div>
 					<!-- Col -->
 					<div class="w-full lg:w-7/12 bg-white dark:bg-gray-700 p-5 rounded-lg lg:rounded-l-none">
                         <h3 class="py-4 text-2xl text-center text-gray-800 dark:text-white">REGISTRAR ESTUDIO</h3>
