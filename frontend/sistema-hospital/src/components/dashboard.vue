@@ -242,7 +242,7 @@ folder_managed
  <piepaginaView style="position: fixed; bottom:0; width: 100%;"></piepaginaView>  
     </template>
 <script>
-import pie_pagina from './pie_pagina.vue';
+import piepaginaView from '@/components/pie_pagina.vue';
 
 export default {
   components: {
