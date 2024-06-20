@@ -6,7 +6,7 @@ from typing import Optional
 persona=APIRouter()
 
 personas=[]
-class listar_personas(BaseModel):
+class model_personas(BaseModel):
     id: int
     nombre:str 
     primer_apellido: str 
@@ -26,9 +26,20 @@ def bienvenida():
     return "Bienvenido al api del Sistema"
 
 
-@persona.get("/personas")
+@persona.get('/personas')
 
 
-def helloworld():
-    return "hello work putos"
+def get_personas():
+    return personas
+
+
+
+@persona.post('/personas')
+def save_personas(datos_persona:model_personas):
+    personas.append(datos_persona)
+    return "Datos guardados correctamente"
+
+
+
+
 
